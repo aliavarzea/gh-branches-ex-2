@@ -10,6 +10,8 @@
 /* =================== Sections ================== */
 
 .section-top-header {
+    display: flex;
+    justify-content: space-around;
     height: 30vh;
     background-color: blue;
 }
@@ -27,15 +29,31 @@
 /* =================== Header (including nav) ================== */
 
 .container-title {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline overline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: thick solid black; */
+}
 
+.header-title{
+    font-size: 50px;
 }
 
 .header-nav {
-
+    display: flex;
 }
 
 .header-nav-ul {
-
+    display: flex;
+}
+.navbar-items{
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    padding: 6%;
 }
 
 /* =================== Footer ================== */
